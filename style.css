@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2, p, a, button, input, ul{
+    font-family: "Roboto", sans-serif;
+}
+#tableheader{
+    width: 100%;
+    background-color: rgb(211, 220, 220);
+    color: white;
+    border-radius: 30px;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 35px;
+}
+
+nav{
+    padding-right: 16px;
+    
+}
+a{
+    margin-right: 16px;
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+    }
+video{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#tablemain{
+    width: 100%;
+}
+
+#myimage{
+    width: 500px;
+    height: 350px;
+}
+
+#textarea{
+    resize: none;
+}
+
+.bio{
+    width: 70%;
+    text-align: left;
+}
+
+h1{
+    text-decoration: underline;
+    color: rgb(203, 168, 168);
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+ 
+.btn{
+    padding: 16px;
+    border-radius: 12px;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.para{
+    margin-left: 40px; 
+}
+.footerinfo {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+footer{
+    background-color: rgb(211, 220, 220);
+    height: 90px;
+    color: white;
+}
+
+.bio11{
+    width: 1000px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 248, 248);
+    border-radius: 40px;
+}
+form{
+    text-align: center;
+}
+form input, textarea, select{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+    border-bottom: 2px solid rgb(203, 168, 168);
+    outline: none;
+}
+
+#btn{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#submit{
+    cursor: pointer;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-right: none;
+    border-bottom: 5px solid rgb(195, 131, 131);
+    outline: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: large;
+}
+
